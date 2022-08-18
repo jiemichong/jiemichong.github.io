@@ -1,13 +1,13 @@
 <h1> Hi there, I'm Jie Mi! </h1>
 
-
-<table>
-    <tr>
-        <th>Name</th>
-        <th>Relationship Status</th>
-        <th>Favourite Fruits</th>
-    </tr>
-    <tr>
-        <td>...</td>
-    </tr>
-</table>
+<form action="/index.html">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="single">Single</label>
+    <input type="radio" id="single" name="fav_language" value="Single">
+    <label for="taken">Taken</label>
+    <input type="radio" id="taken" name="fav_language" value="Taken">
+    <label for="complicated">It's Complicated</label>
+    <input type="radio" id="complicated" name="fav_language" value="It's complicated">
+    <input type="submit" value="Submit">
+</form>
